@@ -4,6 +4,7 @@
   box-sizing: border-box;
   font-family: "Nunito", sans-serif;
   list-style: none;
+  text-align: justify;
 }
 body {
   background-color: palegoldenrod;
@@ -34,6 +35,9 @@ section div{
   padding: 10px 20px;
   border: 0px;
   border-radius: 5px;
+}
+.sample_note{
+    margin-right: 20px;
 }
 .mid_sec img{
     width: 100%;

@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  /*border box for perfect size in every element */
   font-family: "Nunito", sans-serif;
   list-style: none;
   text-align: justify;
@@ -10,99 +11,102 @@ body {
   background-color: palegoldenrod;
   background-size: 100%;
 }
-span{
+span {
   color: orange;
 }
-section{
+section {
   display: flex;
 }
-section div{
-    width: 50%;
-}
-.head_sec div{
+section div {
   width: 50%;
+}
+.head_sec div {
   padding-left: 5%;
   padding-top: 6%;
 }
-.world_pic img{
-    width: 100%;
-  }
-.dev_map{
+.world_pic img {
+  width: 100%;
+}
+.dev_map {
   text-decoration: none;
   font-weight: 700;
   color: white;
-  background-image: linear-gradient(rgb(89, 0, 255), #2C3E50);
+  background-image: linear-gradient(rgb(89, 0, 255), #2c3e50);
   padding: 10px 20px;
   border: 0px;
   border-radius: 5px;
 }
-.sample_note{
-    margin-right: 20px;
+.sample_note {
+  margin-right: 20px;
 }
-.mid_sec img{
-    width: 100%;
+.mid_sec img {
+  width: 100%;
 }
-.more_a{
+.more_a {
   text-decoration: none;
   font-weight: 700;
   color: white;
-  background-image: linear-gradient(rgb(89, 0, 255), #2C3E50);
+  background-image: linear-gradient(rgb(89, 0, 255), #2c3e50);
   padding: 10px 20px;
   border: 0px;
   border-radius: 5px;
 }
-.cart{
-    background-image: url(photos/New\ year\ 2022.png);
-    background-repeat: no-repeat;
+.cart {
+  background-image: url(photos/New\ year\ 2022.png);
+  background-repeat: no-repeat;
 }
-.cart div{
-    text-align: justify;
-    width: 30%;
-    height: 600px;
-    padding-left: 40px;
-    padding-right: 20px;
-    padding-top: 20px;
-    border: 5px solid none;
-    margin: 10% 10%;
-    box-shadow: 8px 8px 40px gray;
-    border-left: 5px solid greenyellow;
-    border-radius: 10px;
+.cart div {
+  text-align: justify;
+  width: 30%;
+  height: 600px;
+  padding-left: 40px;
+  padding-right: 20px;
+  padding-top: 20px;
+  border: 5px solid none;
+  margin: 10% 10%;
+  box-shadow: 8px 8px 40px gray;
+  border-left: 5px solid greenyellow;
+  border-radius: 10px;
 }
-footer{
-    height: 50px;
-    background-color: violet;
-    text-align: center;
+footer {
+  height: 50px;
+  background-color: violet;
+  text-align: center;
 }
 
 /*  NAVIGATION AREA DESIGN START*/
 
-nav{
-   background: #333;
-   height: 80px;
-   width: 100%;
-   
+nav {
+  background: #333;
+  height: 80px;
+  width: 100%;
 }
-label{
-    color: white;
-    font-size: 35px;
-    line-height: 80px;
-    padding: 0 100px;
-    font-weight: bold;
-}
-nav ul{
-    float: right;
-    margin-right: 20px;
+label {
+  color: white;
+  font-size: 35px;
+  line-height: 80px;
 
+  /* what is a line height? */
+
+  padding: 0 100px;
+  font-weight: bold;
 }
-nav ul li{
-    display: inline-block;
-    line-height: 80px;
-    margin: 0 5px;
+nav ul {
+  float: right;
+
+  /* float concept is not clear */
+
+  margin-right: 20px;
 }
-nav ul li a{
-    color: white;
-    text-decoration: none;
-    font-size: 17px;
+nav ul li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
 }
 
 /*  NAVIGATION AREA DESIGN END*/
